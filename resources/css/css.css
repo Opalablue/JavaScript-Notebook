@@ -1,0 +1,72 @@
+body {
+    background-color:rgb(163, 241, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1 {
+    outline-width: 20px;
+    outline-style: double;
+    outline-offset: 0px;
+    outline-color: rgb(255, 255, 255);
+    outline-width: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
+.boxtitle {
+    background-color: rgb(255, 255, 255);
+    min-height: 40px;
+    min-width:550px;
+    border-radius: 0px;
+}
+.whitebox {
+    background-color: white;
+    min-height: 120px;
+    max-width: 1000px;
+    min-width: 400px;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    }
+.menu {
+    text-align: center;
+    text-indent: -30px;
+    background-color: white;
+    min-height: 100px;
+    max-width: 1000px;
+    min-width: 400px;
+    border-radius: 5px;
+}
+li {
+    margin-top: 7px;
+}
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 120px;
+}
+
+.logo {
+    margin-top: 10px;
+    background-color: white;
+    min-width: 450px;
+    min-height: 70px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    align-items: center;
+}
