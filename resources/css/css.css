@@ -1,9 +1,13 @@
 body {
-    background-color:rgb(163, 241, 255);
+    height: 100%;
+    background-image: linear-gradient(rgb(56, 175, 255), rgb(77, 65, 119));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-left: 20px;
     margin-right: 20px;
 }
 h1 {
+    color: rgb(59, 123, 175);
     outline-width: 20px;
     outline-style: double;
     outline-offset: 0px;
@@ -60,9 +64,8 @@ button {
 .logo {
     margin-top: 10px;
     background-color: white;
-    min-width: 450px;
+    min-width: 400px;
     min-height: 70px;
-    text-align: center;
     border-radius: 20px;
     
 }
@@ -148,4 +151,22 @@ h2 {
         flex-direction: column; 
         align-content: center; 
         flex-wrap: wrap-reverse;
+    }
+
+    html{
+        height: 100%;
+    }
+
+    h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14pt;
+        margin-top: -0.6mm;
+        background-color: white;
+        color: rgb(59, 123, 175);
+        min-width: 180px;
+        text-align: center;
+        outline-style: inset;
+        outline-color: rgb(255, 255, 255);
+        outline-width: 3px;
+   
     }
