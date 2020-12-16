@@ -27,7 +27,8 @@ p {
     background-color: white;
     min-height: 120px;
     max-width: 1000px;
-    min-width: 400px;
+    min-width: 250px;
+    border-style: solid;
     border-radius: 5px;
 }
 .container {
@@ -76,7 +77,7 @@ code {
     align-items: center;
     font-size: larger;
     border-color: white;
-    border-width: 10px;
+    border-width: 13px;
     border-style: solid;
 }
 
@@ -99,3 +100,51 @@ hr {
     border-color: white;
     border-width: 2px;
 }
+
+.rowblock {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.pictureborder {
+    border-width: 10px;
+    border-color: white;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.columnblock {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: wrap-reverse;
+}
+
+h2 {
+    font-size: 14pt;
+    outline-width: 20px;
+    outline-style: double;
+    outline-offset: 0px;
+    outline-color: rgb(255, 255, 255);
+    outline-width: 10px;
+    max-width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxtitle2 {
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        min-height: 30px;
+        min-width:200px;
+        border-radius: 3px;
+        margin-right: 40px;
+    }
+    
+    .columnblock2 {
+        display: flex; 
+        justify-content: center; 
+        flex-direction: column; 
+        align-content: center; 
+        flex-wrap: wrap-reverse;
+    }
