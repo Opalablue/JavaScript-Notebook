@@ -177,3 +177,7 @@ h2 {
         text-decoration: none;
         color: midnightblue;
     }
+
+    .reservedwords {
+        color:crimson;
+    }
